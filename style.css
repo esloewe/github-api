@@ -1,0 +1,53 @@
+body {
+    background-color: #ebebeb;
+}
+
+h1 {
+    font: 46px "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-left: 20px;
+}
+
+input {
+    font: 22px "Helvetica Neue", sans-serif;
+    margin-left: 20px;
+    width: 100pxpx;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+button {
+    font: 24px "Helvetica Neue", sans-serif;
+    margin-left: 10px;
+    background-color: #0b0d0a;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+#resultsContainer {
+    margin-left: 20px;
+}
+
+p {
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    font: 18px "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+img {
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.inside-repos {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}

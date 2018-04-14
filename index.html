@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title></title>
+    </head>
+    <body>
+        <h1>Github API</h1>
+        <div>
+            <input type="text" name="username"placeholder="username" value="">
+            <input type="password" name="password"placeholder="password" value="">
+            <input type="text" name="usernameToSearch"placeholder="username to search" value="">
+            <button id="submit-button">submit</button>
+            <div id="results-container">
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <script id="github" type="text/x-handlebars-template">
+
+            {{#repos}}
+            <div class = "inside-repos">
+
+                <p class= "name">{{name}}</p>
+                <img src={{owner.avatar_url}}/>
+
+            </div>
+
+            {{/repos}}
+
+
+        </script>
+
+        <script id="github2" type="text/x-handlebars-template">
+
+            {{#latest}}
+            <div class = "secondInside">
+
+
+            </div>
+
+            {{/latest}}
+
+
+        </script>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
